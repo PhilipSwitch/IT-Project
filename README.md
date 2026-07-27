@@ -122,3 +122,80 @@ Around 20-30 minutes, structured like a real engineering handover:
 9.	What you'd build next
 10.	Q&A — expect questions like "why this over X?" or "how would this scale?"
 By the end, you should be able to talk about every part of this project like it's genuinely yours — because it is.
+
+
+# Milestone 0: Planning
+
+##  Feature specs for the MVP
+
+### Onboarding:
+The goal of this feature is to enable users to transition smoothly into our platform. It is built to make sure users onboard seamlessly without confusion.
+
+User story: "As a user, I want to onboard seamlessly into the platform. I don't want the platform to be too complicated. I want to understand the platform in the first few minutes."
+
+This feature must allow first-time users to grasp the flow of the platform fast. It should be comprehensive and give users a general understanding of the product.
+
+### Service Listings:
+The goal of this feature is to make listings uploaded by the informal workers visible. It is built to give informal workers the core goal from the beginning, what they really want - VISIBILITY.
+
+User story: "As a client, I can easily see all the provided listings offered by barbers using the platform. I can compare prices and choose which barber matches my budget."
+
+This feature must enable clients to discover services as fast as possible.
+
+### Status Flow of Booking Request:
+The goal of this feature is to enable users of SkillLink to verify the status of their requests FAST. It is built to reduce confusion as to where their business transaction stands.
+
+User story: "The status flow feature allows me to understand where my transaction really stands. As a result of this, I am rest assured that my transaction will be taken care of."
+
+This feature must show the user (CLIENT/WORKER) the status of his/her transaction at every given time.
+
+### Role Authentication:
+The goal of this feature is to ensure secure access control and proper user permissions. It is built to differentiate between clients, providers, and admins, giving each role access to only relevant features.
+
+User story: "As a client, I only want to see features relevant to me like browsing and booking. As a provider, I need to manage my listings and bookings. As an admin, I need oversight to moderate the platform."
+
+This feature must implement JWT-based authentication with role-based middleware protecting routes and ensuring users can only access features appropriate to their role.
+
+### Admin Dashboard
+The goal of this feature is to give administrators moderation and oversight capabilities. It is built to maintain platform quality by reviewing listings, managing users, and monitoring activity.
+
+User story: "As an admin, I want to approve new provider listings before they go live to prevent spam. I also want to see platform statistics like total users and bookings so I can monitor platform health."
+
+This feature must provide admins with tools to approve/reject listings, remove inappropriate content, suspend users, and view basic platform statistics.
+
+### Mock Payment Flow:
+The goal of this feature is to simulate the complete payment experience without processing real money. It is built to demonstrate the full transaction journey for demos and stakeholder presentations.
+
+User story: "As a client, I want to see how payment fits into the booking process. As a demo viewer, I want to understand the complete user journey including payment."
+
+This feature must add a payment step to the booking flow with a realistic UI (card fields, success/failure states) that simulates payment processing using mock data.
+
+## Out of Scope: What will NOT be built 
+- Real Payment processing
+- Real Time chat
+- Multi Language Support
+
+## Success metrics of these features:
+- All features working end to end
+- Clean codebase and commit history
+- Comprehensive README for running project from scratch
+- Deployed live version
+- Test coverage on critical parts
+- Complete API documentation
+
+## Project Brief (In My Own words)
+
+### Project Overview: What and why:
+SkillLink is a local services marketplace where informal workers come together to meet clients and do business. We are building SkillLink to bridge the gap between informal workers and clients. The gap has been too big for way too long and we want to close that. Approximately 93 percent of Nigeria's workforce is engaged in the informal economy. We at SkillLink want to give informal workers what they really need, VISIBILITY.
+
+### Project goals and success metrics:
+The goal is to build a fully functional MVP that works end-to-end. Maintain a clean codebase and commit history, a README which is comprehensible enough for anyone to run the project from scratch. Keep a clean UI that is not ambiguous. Build all the MVP features in the feature list.
+
+### Target Audience:
+The target audience for SkillLink is young adults below the age of 35 who actively participate in the informal economy: tailors, hairdressers, barbers, caterers, phone repair technicians, and small-scale traders.
+
+
+
+
+
+
