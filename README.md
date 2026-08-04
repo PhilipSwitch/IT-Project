@@ -271,3 +271,13 @@ Handles mocked payments
 | transaction_reference | Fake reference          |
 | paid_at               | Payment date            |
 
+
+# Milestone 1: Database and API Skeleton
+
+For this Milestone we are working on the Finalized ERD, Prisma Schema, scaffolded Express project, and do a deployed health check
+
+## Finalized ERD
+![Finalized ERD](FinalizedERD.png)
+
+
+
