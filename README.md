@@ -281,3 +281,20 @@ For this Milestone we are working on the Finalized ERD, Prisma Schema, scaffolde
 
 ## Finalized ERD (For the Future)
 ![Finalized-ERD-(For-the-Future)](Pictures-Diagrams/Finalized-ERD-(For-the-Future).png)
+
+## Database and API Skeleton (What I completed):
+
+- [x] Finalized ERD
+- [x] PostgreSQL configuration
+- [x] Prisma configuration
+- [x] Prisma schema
+- [x] Database migration
+- [x] Prisma Studio verification
+- [x] Express + TypeScript scaffold
+- [x] API health check
+- [x] Local API testing
+- [x] Render deployment
+- [x] Live health check
+
+### To test Run Skill Link and view it live on your end use this link
+[Guide](Guide/Milestone1_Guide.md)
