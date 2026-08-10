@@ -276,8 +276,8 @@ Handles mocked payments
 
 For this Milestone we are working on the Finalized ERD, Prisma Schema, scaffolded Express project, and do a deployed health check
 
-## Finalized ERD
-![Finalized ERD](FinalizedERD.png)
+## Finalized ERD (MVP)
+![Finalized ERD (MVP](Pictures-Diagrams/Finalized-ERD-(MVP).png)
 
-
-
+## Finalized ERD (For the Future)
+![Finalized-ERD-(For-the-Future)](Pictures-Diagrams/Finalized-ERD-(For-the-Future).png)
