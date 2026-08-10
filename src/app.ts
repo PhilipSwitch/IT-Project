@@ -1,14 +1,10 @@
 import express from "express";
+import healthRoutes from "./routes/health.routes";
 
 const app = express();
 
 app.use(express.json());
 
-app.get("/health", (req, res) => {
-  res.status(200).json({
-    status: "ok",
-    message: "SkillLink API is running",
-  });
-});
+app.use("/health", healthRoutes);
 
 export default app;
