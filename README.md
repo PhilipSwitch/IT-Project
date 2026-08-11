@@ -298,3 +298,18 @@ For this Milestone we are working on the Finalized ERD, Prisma Schema, scaffolde
 
 ### To test Run Skill Link and view it live on your end use this link
 [Milestone1_Guide](Guide/Milestone1_Guide.md)
+
+# Milestone 2: Auth, Authentication & Roles 
+Here I focused on implementing user authentication and role-based authentication 
+
+- [x] User registration
+- [x] Password hashing with bcrypt
+- [x] User login
+- [x] JWT authentication
+- [x] Protected routes
+- [x] Role-based middleware
+- [x] Authentication and authorization error handling
+- [x] API testing with Postman
+
+### To test Run Skill Link and view it live on your end use this link
+[Milestone2_Guide](Guide/Milestone2_Guide.md)
