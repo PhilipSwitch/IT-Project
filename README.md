@@ -271,3 +271,30 @@ Handles mocked payments
 | transaction_reference | Fake reference          |
 | paid_at               | Payment date            |
 
+
+# Milestone 1: Database and API Skeleton
+
+For this Milestone we are working on the Finalized ERD, Prisma Schema, scaffolded Express project, and do a deployed health check
+
+## Finalized ERD (MVP)
+![Finalized ERD (MVP](Pictures-Diagrams/Finalized-ERD-(MVP).png)
+
+## Finalized ERD (For the Future)
+![Finalized-ERD-(For-the-Future)](Pictures-Diagrams/Finalized-ERD-(For-the-Future).png)
+
+## Database and API Skeleton (What I completed):
+
+- [x] Finalized ERD
+- [x] PostgreSQL configuration
+- [x] Prisma configuration
+- [x] Prisma schema
+- [x] Database migration
+- [x] Prisma Studio verification
+- [x] Express + TypeScript scaffold
+- [x] API health check
+- [x] Local API testing
+- [x] Render deployment
+- [x] Live health check
+
+### To test Run Skill Link and view it live on your end use this link
+[Guide](Guide/Milestone1_Guide.md)
