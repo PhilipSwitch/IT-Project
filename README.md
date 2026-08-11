@@ -297,4 +297,4 @@ For this Milestone we are working on the Finalized ERD, Prisma Schema, scaffolde
 - [x] Live health check
 
 ### To test Run Skill Link and view it live on your end use this link
-[Guide](Guide/Milestone1_Guide.md)
+[Milestone1_Guide](Guide/Milestone1_Guide.md)
