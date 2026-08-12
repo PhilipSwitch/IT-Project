@@ -313,3 +313,18 @@ Here I focused on implementing user authentication and role-based authentication
 
 ### To test Run Skill Link and view it live on your end use this link
 [Milestone2_Guide](Guide/Milestone2_Guide.md)
+
+
+# Milestone 3: Listings and Booking Flow
+
+- [x] Service listing CRUD
+- [x] Search and filtering 
+- [x] Client booking creation 
+- [x] Provider booking management 
+- [x] Cliengt booking management 
+- [x] Bookng status workflow
+- [x] Role-based booking authorization 
+- [x] Postman API testing
+
+### Too test Run Skill Link and view it live on your end use this link
+[Milestone3_Guide](Guide/Milestone3_Guide.md)
