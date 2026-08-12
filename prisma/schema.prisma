@@ -51,7 +51,7 @@ model Booking {
   serviceId     Int
   bookingDate   DateTime
   scheduledTime DateTime
-  status        String
+  status        BookingStatus @default(PENDING)
   notes         String?
   createdAt     DateTime  @default(now())
 
@@ -77,4 +77,12 @@ enum Role {
   CLIENT
   PROVIDER
   ADMIN
+}
+
+enum BookingStatus {
+  PENDING
+  ACCEPTED
+  REJECTED
+  CANCELLED
+  COMPLETED
 }
