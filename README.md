@@ -341,5 +341,5 @@ This milestone was traded off so as to build on what we already have and not any
 - [x] Structured logging
 - [x] Tests for authentication, protected routes, services, bookings and error responses.
 
-## # To test Run skill Link and view it live on your end use this link
+### To test Run skill Link and view it live on your end use this link
 [Milestone5_Guide](Guide/Milestone5_Guide.md)
