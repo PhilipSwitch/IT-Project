@@ -326,5 +326,20 @@ Here I focused on implementing user authentication and role-based authentication
 - [x] Role-based booking authorization 
 - [x] Postman API testing
 
-### Too test Run Skill Link and view it live on your end use this link
+### To test Run Skill Link and view it live on your end use this link
 [Milestone3_Guide](Guide/Milestone3_Guide.md)
+
+
+# Milestone 4: Reviews & Admin
+
+This milestone was traded off so as to build on what we already have and not anything new
+
+# Milestone 5: Testing & Error handling
+
+- [x] Automated API test suite
+- [x] Centralized errror handling
+- [x] Structured logging
+- [x] Tests for authentication, protected routes, services, bookings and error responses.
+
+## # To test Run skill Link and view it live on your end use this link
+[Milestone5_Guide](Guide/Milestone5_Guide.md)
