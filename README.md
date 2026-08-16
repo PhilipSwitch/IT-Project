@@ -313,3 +313,96 @@ Here I focused on implementing user authentication and role-based authentication
 
 ### To test Run Skill Link and view it live on your end use this link
 [Milestone2_Guide](Guide/Milestone2_Guide.md)
+
+
+# Milestone 3: Listings and Booking Flow
+
+- [x] Service listing CRUD
+- [x] Search and filtering 
+- [x] Client booking creation 
+- [x] Provider booking management 
+- [x] Cliengt booking management 
+- [x] Bookng status workflow
+- [x] Role-based booking authorization 
+- [x] Postman API testing
+
+### To test Run Skill Link and view it live on your end use this link
+[Milestone3_Guide](Guide/Milestone3_Guide.md)
+
+
+# Milestone 4: Reviews & Admin
+
+This milestone was traded off so as to build on what we already have and not anything new
+
+# Milestone 5: Testing & Error handling
+
+- [x] Automated API test suite
+- [x] Centralized errror handling
+- [x] Structured logging
+- [x] Tests for authentication, protected routes, services, bookings and error responses.
+
+### To test Run skill Link and view it live on your end use this link
+[Milestone5_Guide](Guide/Milestone5_Guide.md)
+
+# Milestone 6: Frontend Integration
+
+Built and integrated the SkillLink frontend using React, TypeScript, Vite, and Tailwind CSS.
+
+The frontend now supports:
+
+- [x] Real registration and login
+- [x] JWT-based authentication and persistent sessions
+- [x] Service browsing, search, and filtering
+- [x] Real service details from the backend
+- [x] Provider service creation, editing, and deletion
+- [x] Real booking creation and management
+- [x] Client booking cancellation
+- [x] Provider booking acceptance, rejection, and completion
+- [x] Real client and provider dashboard activity
+- [x] Loading and error states
+- [x] Global handling of expired/invalid authentication sessions
+- [x] Nigerian Naira (₦) pricing and Nigerian marketplace context
+
+Core functionality is connected to the existing Express/Prisma/PostgreSQL backend instead of relying on mock application data.
+
+### To test Run skill Link and view it live on your end use this link
+[Milestone6_Guide](Guide/Milestone6_Guide.md)
+
+## Current Scope
+
+### Implemented:
+
+- Authentication
+- Service marketplace
+- Booking workflow
+- Client experience
+- Provider experience
+- Testing and error handling
+
+### Not yet implemented:
+
+- Reviews
+- Admin functionality
+- Payments
+- Provider image uploads
+
+
+# Technology Stack
+
+### Backend
+- Node.js
+- TypeScript
+- Express
+- Prisma
+- PostgreSQL
+- JWT
+- bcrypt
+- Pino
+- Vitest
+- Supertest
+
+### Frontend
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS 4
