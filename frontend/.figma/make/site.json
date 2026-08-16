@@ -1,0 +1,10 @@
+{
+  "description": "Connect clients with service providers through a responsive marketplace to browse, book, and manage services with seamless user and provider dashboards.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
