@@ -1,6 +1,6 @@
 import "dotenv/config";
 import express from "express";
-
+import cors from "cors";
 import pinoHttp from "pino-http";
 import { logger } from "./lib/logger";
 
@@ -12,6 +12,16 @@ import bookingRoutes from "./routes/booking.routes";
 import { errorHandler } from "./middleware/error.middleware";
 
 const app = express();
+
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:8443",
+    ],
+    credentials: true,
+  }),
+);
 
 app.use(pinoHttp({ logger }));
 app.use(express.json());
