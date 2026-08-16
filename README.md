@@ -406,3 +406,33 @@ Core functionality is connected to the existing Express/Prisma/PostgreSQL backen
 - TypeScript
 - Vite
 - Tailwind CSS 4
+
+# Milestone 7: Deployment & Docs
+
+SkillLink is deployed as two applications:
+
+- **Frontend:** Vercel
+- **Backend API:** Render
+- **Database:** Render PostgreSQL
+
+## Production verification
+
+The deployed application was verified for:
+
+- Authentication and registration
+- Persistent JWT sessions
+- Service browsing, search, and filtering
+- Service details
+- Provider service creation, editing, and deletion
+- Booking creation
+- Client booking management and cancellation
+- Provider booking management
+- Booking status transitions
+- Real dashboard activity
+- Production API communication
+- Successful frontend production build
+
+Browser requests were verified to use the Render production API rather than `localhost`.
+
+### To test Run skill Link and view it live on your end use this link
+[Milestone7_Guide](Guide/Milestone7_Guide.md)
