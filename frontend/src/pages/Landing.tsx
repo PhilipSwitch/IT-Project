@@ -48,7 +48,7 @@ export default function Landing() {
               Connect with skilled professionals across Nigeria
             </h1>
             <p className="text-base text-gray-500 mb-8 leading-relaxed">
-              SkillLink helps businesses and individuals find and hire verified freelancers — from software development and design to content, photography, and more.
+              SkillLink helps businesses and individuals find and hire verified freelancers - from software development and design to content, photography, and more.
             </p>
 
             <form
